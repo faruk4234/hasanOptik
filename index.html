@@ -12,6 +12,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet">
   <!-- FontAwesome for Icons -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
 </head>
 
 <body>
@@ -75,42 +76,45 @@
       <div class="section-header">
         <h2>Hizmetlerimiz</h2>
       </div>
-      <div class="hizmet-grid">
-        <div class="hizmet-item">
+      <div class="swiper mobile-swiper">
+        <div class="swiper-wrapper hizmet-grid">
+        <div class="swiper-slide hizmet-item">
           <i class="fa-solid fa-glasses"></i>
           <h4>Özel Tasarım Çerçeveler</h4>
           <p>Dünya markalarının en seçkin koleksiyonları; yüz hatlarınıza göre kürasyon.</p>
         </div>
-        <div class="hizmet-item">
+        <div class="swiper-slide hizmet-item">
           <i class="fa-solid fa-sun"></i>
           <h4>Premium Güneş Gözlükleri</h4>
           <p>UV korumalı, trend ve lüks tasarımlarla şıklık + koruma.</p>
         </div>
-        <div class="hizmet-item">
+        <div class="swiper-slide hizmet-item">
           <i class="fa-solid fa-eye"></i>
           <h4>Kişiye Özel Reçeteli Camlar</h4>
           <p>İleri teknolojiyle keskin, net ve konforlu görüş.</p>
         </div>
-        <div class="hizmet-item">
+        <div class="swiper-slide hizmet-item">
           <i class="fa-solid fa-user-doctor"></i>
           <h4>Profesyonel Odak Noktası Ölçümü</h4>
           <p>Uzman ekiple detaylı ölçüm ve doğru çözüm.</p>
         </div>
-        <div class="hizmet-item">
+        <div class="swiper-slide hizmet-item">
           <i class="fa-solid fa-shield-halved"></i>
           <h4>Hafif & Dayanıklı Çerçeveler</h4>
           <p>Titanyum, karbon fiber ve özel alaşımlar.</p>
         </div>
-        <div class="hizmet-item">
+        <div class="swiper-slide hizmet-item">
           <i class="fa-solid fa-wrench"></i>
           <h4>Profesyonel Bakım ve Onarım</h4>
           <p>Ayar, bakım ve onarımla uzun yıllar konfor.</p>
         </div>
-        <div class="hizmet-item">
+        <div class="swiper-slide hizmet-item">
           <i class="fa-solid fa-child-reaching"></i>
           <h4>Çocuklara Yönelik Optik</h4>
           <p>Çocuklara miyopi engelleyici cam.</p>
         </div>
+      </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
@@ -121,31 +125,34 @@
       <div class="section-header">
         <h2 style="text-align: center; width: 100%;">Bizi Neden Tercih Ediyorlar?</h2>
       </div>
-      <div class="features-grid">
-        <div class="feature-card">
+      <div class="swiper mobile-swiper">
+        <div class="swiper-wrapper features-grid">
+        <div class="swiper-slide feature-card">
           <i class="fa-solid fa-certificate"></i>
           <h4>Ruhsatlı optik mağazası</h4>
         </div>
-        <div class="feature-card">
+        <div class="swiper-slide feature-card">
           <i class="fa-solid fa-user-tie"></i>
           <h4>Profesyonel optik hizmet</h4>
         </div>
-        <div class="feature-card">
+        <div class="swiper-slide feature-card">
           <i class="fa-solid fa-glasses"></i>
           <h4>Güncel çerçeve koleksiyonları</h4>
         </div>
-        <div class="feature-card">
+        <div class="swiper-slide feature-card">
           <i class="fa-solid fa-eye"></i>
           <h4>Numaralı cam seçenekleri</h4>
         </div>
-        <div class="feature-card">
+        <div class="swiper-slide feature-card">
           <i class="fa-solid fa-droplet"></i>
           <h4>Renkli lens seçenekleri</h4>
         </div>
-        <div class="feature-card">
+        <div class="swiper-slide feature-card">
           <i class="fa-solid fa-star"></i>
           <h4>Müşteri yorumları</h4>
         </div>
+      </div>
+        <div class="swiper-pagination"></div>
       </div>
     </div>
   </section>
@@ -164,8 +171,9 @@
           <span class="rating-text">Google Müşteri Yorumları</span>
         </div>
       </div>
-      <div class="review-grid">
-        <div class="review-card">
+      <div class="swiper mobile-swiper">
+        <div class="swiper-wrapper review-grid">
+        <div class="swiper-slide review-card">
           <div class="review-header">
             <div class="avatar">A</div>
             <div class="user-info">
@@ -177,7 +185,7 @@
           </div>
           <p>"Çok ilgili ve güler yüzlü bir ekip. Gözlüğümü aynı gün teslim aldım, kesinlikle tavsiye ederim."</p>
         </div>
-        <div class="review-card">
+        <div class="swiper-slide review-card">
           <div class="review-header">
             <div class="avatar">M</div>
             <div class="user-info">
@@ -190,7 +198,7 @@
           <p>"Merkezefendi Optik'e tavsiye üzerine gittim. Çocuk gözlüklerinde çok fazla çeşit var. Fiyatlar gayet
             makul."</p>
         </div>
-        <div class="review-card">
+        <div class="swiper-slide review-card">
           <div class="review-header">
             <div class="avatar">E</div>
             <div class="user-info">
@@ -202,7 +210,7 @@
           </div>
           <p>"Göz ölçümümü çok dikkatli yaptılar. Aldığım gözlükten ve hizmetten çok memnun kaldım. Teşekkürler!"</p>
         </div>
-        <div class="review-card">
+        <div class="swiper-slide review-card">
           <div class="review-header">
             <div class="avatar">C</div>
             <div class="user-info">
@@ -214,7 +222,7 @@
           </div>
           <p>"Güler yüzlü hizmet ve kaliteli ürünler. Gözlüğümden çok memnun kaldım, herkese tavsiye ederim."</p>
         </div>
-        <div class="review-card">
+        <div class="swiper-slide review-card">
           <div class="review-header">
             <div class="avatar">S</div>
             <div class="user-info">
@@ -226,7 +234,7 @@
           </div>
           <p>"Lens siparişim çok hızlı geldi, mağaza çok şık ve temiz. İlginiz için teşekkürler."</p>
         </div>
-        <div class="review-card">
+        <div class="swiper-slide review-card">
           <div class="review-header">
             <div class="avatar">O</div>
             <div class="user-info">
@@ -238,6 +246,8 @@
           </div>
           <p>"Uzun zamandır aradığım modeli burada buldum. Fiyatlar ve hizmet kalitesi mükemmel."</p>
         </div>
+      </div>
+        <div class="swiper-pagination"></div>
       </div>
       <div style="text-align: center; margin-top: 40px;">
         <a href="https://maps.app.goo.gl/b3tHTAY1izBAJedYA?g_st=iw" target="_blank" class="btn btn-primary">Tüm Google
@@ -338,6 +348,7 @@
     </div>
   </footer>
 
+  <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
   <script type="module" src="/main.js"></script>
 </body>
 
