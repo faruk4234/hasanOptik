@@ -675,3 +675,147 @@ h2 {
     grid-template-columns: 1fr;
   }
 }
+
+/* Reviews Section */
+.reviews {
+  background-color: var(--light);
+}
+
+.google-rating {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.google-rating .rating-score {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--dark);
+}
+
+.google-rating .stars, .review-card .stars {
+  color: #fbbc04; /* Google yellow */
+  font-size: 1rem;
+}
+
+.google-rating .rating-text {
+  color: var(--text-muted);
+  font-size: 0.9rem;
+}
+
+.review-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.review-card {
+  background: var(--white);
+  padding: 25px;
+  border-radius: var(--border-radius);
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+}
+
+.review-header {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  margin-bottom: 15px;
+  position: relative;
+}
+
+.avatar {
+  width: 45px;
+  height: 45px;
+  background-color: var(--accent);
+  color: var(--white);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+
+.user-info h5 {
+  font-size: 1.1rem;
+  margin-bottom: 2px;
+}
+
+.google-icon {
+  position: absolute;
+  right: 0;
+  top: 5px;
+  color: #4285F4;
+  font-size: 1.5rem;
+}
+
+.review-card p {
+  color: var(--text-main);
+  font-size: 0.95rem;
+  font-style: italic;
+  line-height: 1.6;
+}
+
+@media (max-width: 992px) {
+  .review-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .review-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+/* Why Choose Us Section */
+.why-choose-us .section-header {
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.features-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px;
+}
+
+.feature-card {
+  background: var(--white);
+  padding: 30px;
+  border-radius: var(--border-radius);
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.05);
+  transition: var(--transition);
+}
+
+.feature-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.feature-card i {
+  font-size: 2.5rem;
+  color: var(--accent);
+  margin-bottom: 15px;
+}
+
+.feature-card h4 {
+  font-size: 1.1rem;
+  color: var(--dark);
+  margin-bottom: 0;
+}
+
+@media (max-width: 992px) {
+  .features-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 768px) {
+  .features-grid {
+    grid-template-columns: 1fr;
+  }
+}
