@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="tr">
+
+<head>
+  <meta charset="UTF-8" />
+  <link rel="icon" type="image/svg+xml" href="/vite.svg" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Optik Çerçeveler | Merkezefendi Optik</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+  <!-- FontAwesome for Icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="/style.css">
+</head>
+
+<body>
+  <!-- Floating Back Button -->
+  <a href="index.html" class="floating-back-btn"><i class="fa-solid fa-arrow-left"></i> Ana Sayfaya Dön</a>
+
+  <!-- Navbar -->
+  <header class="navbar">
+    <div class="container nav-container">
+      <a href="index.html" class="logo">
+        <img src="/src/assets/logo.jpeg" alt="Merkezefendi Optik" class="logo-img">
+        <span class="logo-text">MERKEZEFENDİ <br><small>OPTİK</small></span>
+      </a>
+      <nav class="nav-links">
+        <a href="index.html">Ana Sayfa</a>
+        <a href="index.html#kategoriler">Kategoriler</a>
+        <a href="index.html#hizmetlerimiz">Hizmetlerimiz</a>
+        <a href="markalar.html">Markalar</a>
+        <a href="index.html#contact">Mağazamız</a>
+      </nav>
+      <a href="index.html#contact" class="btn btn-primary">
+        <i class="fa-solid fa-location-dot"></i> Mağazamıza Ulaşın
+      </a>
+      <button class="menu-toggle" aria-label="Toggle Menu">
+        <i class="fa-solid fa-bars"></i>
+      </button>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <div class="category-page-hero" style="background-image: url('/src/assets/categories/optik.jpg');">
+    <div class="hero-overlay"></div>
+    <div class="container hero-inner">
+      <h1>Optik Çerçeveler</h1>
+      <p>Her tarza uygun, modern ve kaliteli çerçeveler.</p>
+    </div>
+  </div>
+
+  <!-- Filter Pills Bar -->
+  <section class="filter-bar-section">
+    <div class="container">
+      <div class="filter-pills">
+        <button class="filter-pill active" data-filter="all">Tümü</button>
+        <button class="filter-pill" data-filter="ray-ban">Ray-Ban</button>
+        <button class="filter-pill" data-filter="oakley">Oakley</button>
+        <button class="filter-pill" data-filter="prada">Prada</button>
+        <button class="filter-pill" data-filter="gucci">Gucci</button>
+        <button class="filter-pill" data-filter="tom-ford">Tom Ford</button>
+        <button class="filter-pill" data-filter="balenciaga">Balenciaga</button>
+        <button class="filter-pill" data-filter="vogue">Vogue</button>
+        <button class="filter-pill" data-filter="alexander">Alexander Wintsch</button>
+        <button class="filter-pill" data-filter="40-million">40 Million</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- Products Section -->
+  <section class="products-section">
+    <div class="container">
+      <div class="products-grid">
+        <!-- Ray-Ban -->
+        <div class="product-card" data-brand="ray-ban">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-rayban.jpg" alt="Ray-Ban Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Ray-Ban</div>
+            <div class="product-desc">Modern ve zamansız.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- Oakley -->
+        <div class="product-card" data-brand="oakley">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-oakley.jpg" alt="Oakley Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Oakley</div>
+            <div class="product-desc">Sportif ve şık tasarımlar.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- Prada -->
+        <div class="product-card" data-brand="prada">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-prada.jpg" alt="Prada Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Prada</div>
+            <div class="product-desc">Özgün tasarımlar, üstün kalite.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- Gucci -->
+        <div class="product-card" data-brand="gucci">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-gucci.jpg" alt="Gucci Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Gucci</div>
+            <div class="product-desc">Stil sahibi çerçeveler.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- Tom Ford -->
+        <div class="product-card" data-brand="tom-ford">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-tomford.jpg" alt="Tom Ford Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Tom Ford</div>
+            <div class="product-desc">Modern ve seçkin.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- Balenciaga -->
+        <div class="product-card" data-brand="balenciaga">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-balenciaga.jpg" alt="Balenciaga Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Balenciaga</div>
+            <div class="product-desc">Fark yaratan tasarım.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- Vogue -->
+        <div class="product-card" data-brand="vogue">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-vogue.jpg" alt="Vogue Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Vogue</div>
+            <div class="product-desc">Günlük şıklık.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- Alexander Wintsch -->
+        <div class="product-card" data-brand="alexander">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-alexander.jpg" alt="Alexander Wintsch Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">Alexander Wintsch</div>
+            <div class="product-desc">Klasik ve zarif.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+
+        <!-- 40 Million -->
+        <div class="product-card" data-brand="40-million">
+          <div class="product-img-wrap">
+            <img src="/src/assets/products/o-40million.jpg" alt="40 Million Optik Çerçeve">
+          </div>
+          <div class="product-info">
+            <div class="product-brand">40 Million</div>
+            <div class="product-desc">Modern yaşam için tasarlandı.</div>
+            <a href="tel:+905366966667" class="product-call-btn"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+          </div>
+        </div>
+      </div>
+
+      <!-- Bottom Call Box Banner -->
+      <div class="bottom-call-box">
+        <p>Aradığınız modeli mi göremediniz?<br><strong>Hemen bizi arayın, sizlere yardımcı olalım.</strong></p>
+        <a href="tel:+905366966667" class="btn-banner-call"><i class="fa-solid fa-phone"></i> Hemen Ara</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sticky Mobile Bottom Navigation -->
+  <div class="sticky-mobile-nav">
+    <div class="sticky-mobile-nav-inner">
+      <a href="tel:+905366966667" class="mobile-nav-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>Ara</span>
+      </a>
+      <a href="https://wa.me/905366966667" target="_blank" class="mobile-nav-item whatsapp">
+        <i class="fa-brands fa-whatsapp"></i>
+        <span>WhatsApp</span>
+      </a>
+      <a href="https://maps.app.goo.gl/b3tHTAY1izBAJedYA?g_st=iw" target="_blank" class="mobile-nav-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>Yol Tarifi</span>
+      </a>
+    </div>
+  </div>
+
+  <script type="module" src="/main.js"></script>
+  <script>
+    document.addEventListener('DOMContentLoaded', () => {
+      const filterPills = document.querySelectorAll('.filter-pill');
+      const productCards = document.querySelectorAll('.product-card');
+
+      filterPills.forEach(pill => {
+        pill.addEventListener('click', () => {
+          filterPills.forEach(p => p.classList.remove('active'));
+          pill.classList.add('active');
+
+          const filter = pill.getAttribute('data-filter');
+
+          productCards.forEach(card => {
+            if (filter === 'all' || card.getAttribute('data-brand') === filter) {
+              card.style.display = 'flex';
+            } else {
+              card.style.display = 'none';
+            }
+          });
+        });
+      });
+    });
+  </script>
+</body>
+
+</html>
